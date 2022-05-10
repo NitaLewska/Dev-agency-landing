@@ -185,3 +185,33 @@ main>section>h2 {
     grid-column: 1/5;
     justify-self: left;
 }
+
+footer::before{
+    content:'';
+    height: 100px;
+    width:120vw;
+    background-color: #F7F7F7;
+    position: absolute;
+    left:-20vw;
+    z-index: -1;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #F7F7F7;
+    position:relative;
+
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    gap: 40px;
+
+}
